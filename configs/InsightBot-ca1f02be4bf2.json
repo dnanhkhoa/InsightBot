@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "zalo-insightbot",
+  "private_key_id": "ca1f02be4bf2432c2ecbe7dcbf21ec2ec0384c09",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFdncrrSnV8GvO\nbnj5N7RM8gtAN5gu8aoFKv5H9fDSfoL3j05x4zOPrelcNLQ18esFk86GwttDst4S\n/dij1bgmKb+MSaYvkbwfSEInBc78ZKCGBD6cs8KFZYEbCvECWZNOXGCrYKpHMjSG\nms0csIvEYhE6sIxbCcHHtURCpYO4SnOjo1jMGVJ4uExz3BDKcUqDq91FyaCKDG1L\n/uB19nPS0JNPXlWqhluVHQ+NUQj6zsdA9/o+MKM+NJwNrZQZ+iHeMgaD8EFYNVjK\n28ANPQfPphmuuZCaD1YdcnklGzXLfy6zIP+H9qoT5G5T+pwibympZBkL35m5BiHK\nWD1B/W6pAgMBAAECggEAAMoRwE/TZN4WSP93JhgTvnTOqqiY5n7y89+fJbDTolsD\nD9JrhTaY4yTWL0fdOZniUlCNfXxGKHE9e03Pd9z0AxcKumHn8DsTHtgI70fnWo6Z\nFfVkhyhCzIoLgFYmH0vIUqchEl5Oe2AK+mxjRv0bG3KlYo6OQXUZH19RrGpvAp+B\nGLZeR7YjyjZOAUdgXsqseI+VPrFLBDbJ5oAyAhg8O/ao2Z4NL3MBed6oRq+zOJS1\nwwEsDEmsJZ1NbrjUhXKvYTgjHCoahd+L4xkqP/kiczTaCCNZOkv2WyEgyA1sPxLg\nFZfiRixF4cV0QgkprZpSYDEcLzmIa2M3g4SdQieF9wKBgQDz6n6j0BW6uMKm4egX\nPeQC+SWALtMlIq/CwEFVOJVrqI6UDEXPoSRl8XPV5PGfaBOb7+f8CCvfbtoFJrUB\nYc6LohmV+fNQc/WHE+MyajtC0hMA6bBlJ9tvDoB5gdjjLrqdAtT359lFnqhsYqYR\nwKt7QksJJ8sPLBjHMyHxzfUAXwKBgQDPPtHiz6FWZlCXnyr4bkktlEpi9ngarbNW\nhv5a9TOS3wBzpirLWLJ2460VoZooUMqzuibP/yaEtdtYpAhpl4MS63AKneGnCyEh\n44t9PQzZew7N0L1KIdFcHW6/OQ7MUnnGrHFK4SsK7qK/IamCfa8ifRk0yjpw2V0V\nGN3qMXLN9wKBgDUeG/YQmqrPEZTGHYTyNXVwTHpduB2eMCh5NcEZUXDghCw5f/p3\nXTXWHyO1d+j/AUY0OJDqNqOxwEje5QwoAJLn+ipvBE3A8vc3nYKdH8qtdPX97iwZ\nQfAteEz9uf2/b2RB+Z8DHo3Kv2LbGM9E5hMxnKWhxNbJA5xdxkaiU3iBAoGAXsrF\nBZEiono58qAC747COe7R92H0nX9FwBYO0VvGMy987WjbuhbfyjFpQbOg5z/M91f1\n2L1DyP/FTE366xE6CrVVkgWU6OrWRMHnU2lRL0hyBQGtEvNU52Uu+pgGhL5UpOLL\nDwzeuylbl0C2X9FNAeFmXhcBlAxX3wZ4ul3TvRECgYEA5kIBB/zQFEm/W42Ed3NI\n+YWwEFOfpzwyf359QyEKf9Zp/H7LZ08gH6OUjUTpm6hLQHhMo/zT58RNKQ/l4bjI\nbxH/z574sGjTsQToGnolKIQSSXXSkqjYP+zyJ8uVhesXxV2XDIWJDAZtHVUyF93O\nxtDN5E634+68lwQeQdDPxcU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "zalo-insightbot@appspot.gserviceaccount.com",
+  "client_id": "113214496385806327504",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/zalo-insightbot%40appspot.gserviceaccount.com"
+}

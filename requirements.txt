@@ -1,0 +1,8 @@
+zalo-python-sdk
+dateparser
+requests
+flask
+flask_cors
+clarifai
+scrapy
+PIL
