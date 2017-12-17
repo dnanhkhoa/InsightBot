@@ -6,7 +6,9 @@ const app = express();
 const port = process.env.PORT || 8080;
 
 app.use(bodyparser.json()); // For supporting json encoded bodies
-app.use(bodyparser.urlencoded({ extended: true })); // For supporting encoded bodies
+app.use(bodyparser.urlencoded({
+    extended: true
+})); // For supporting encoded bodies
 
 app.get('/', (req, res) => {
     res.send('Insight Bot Service is running!');
@@ -14,7 +16,14 @@ app.get('/', (req, res) => {
 
 app.post('/api/googletranslate', (req, res) => {
     var msg = req.body.msg;
-    res.send(msg);
+    translate(msg, {
+        from: 'vi',
+        to: 'en'
+    }).then(r => {
+        res.send(r);
+    }).catch(err => {
+        console.error(err);
+    });
 });
 
 app.listen(port, (err) => {

@@ -6,11 +6,13 @@ import json
 import logging
 import os
 import pickle
+import re
 from io import BytesIO
 from os.path import splitext
 
 import requests
 from PIL import Image
+from geopy.geocoders import Nominatim
 from requests import RequestException
 
 DEBUG = True
@@ -203,3 +205,24 @@ def encode_base64(s):
 
 def decode_base64(s):
     return base64.b64decode(s).decode('UTF-8')
+
+
+def get_address(latitude, longitude):
+    geolocator = Nominatim()
+    return geolocator.reverse('%s, %s' % (latitude, longitude)).address
+
+
+def correct_spelling(msg, timeout=30):
+    try:
+        payload = {'msg': msg}
+        response = requests.post(url='http://insightbotservice.azurewebsites.net/api/googletranslate', data=payload,
+                                 timeout=timeout)
+        if response.status_code == requests.codes.ok:
+            content = json.loads(response.content.decode('UTF-8'))
+            if not content['from']['text']['didYouMean']:
+                return msg
+            content = content['from']['text']['value']
+            return re.sub(r'\[([^\[\]]+)\]', r'\1', content, re.DOTALL)
+    except Exception as e:
+        log(e)
+    return None
